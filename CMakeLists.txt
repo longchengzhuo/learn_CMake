@@ -1,6 +1,7 @@
-cmake_minimum_required(VERSION 3.30)
+cmake_minimum_required(VERSION 3.15)
 project(learn_CMake)
 
-set(CMAKE_CXX_STANDARD 20)
-
-add_executable(learn_CMake main.cpp)
+#add_subdirectory(lesson1_1)
+#add_subdirectory(lesson1_2)
+#add_subdirectory(lesson2_1)
+add_subdirectory(lesson2_2)
