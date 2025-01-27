@@ -1,0 +1,1 @@
+int printResult(int a);

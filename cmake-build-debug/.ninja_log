@@ -1,0 +1,11 @@
+# ninja log v6
+30	58	1737940588998759753	lesson4_1/lesson4_1	966cc569a070b9d5
+29	47	1737940429314681422	lesson4_1/calculator/libcalculator.a	40077babcf213634
+3	29	1737940588972261362	lesson4_1/CMakeFiles/lesson4_1.dir/main.cpp.o	63649b5f6ed6c69f
+3	29	1737940429288241989	lesson4_1/sub/CMakeFiles/sub_object.dir/sub.cpp.o	254242c45e9fc9a8
+3	22	1737940256975439467	lesson4_1/add/libadd.a	af804c8a67881778
+3	29	1737940429288488115	lesson4_1/calculator/CMakeFiles/calculator_object.dir/calculator.cpp.o	a45b8bd41ba61471
+1	24	1737940242877467588	lesson4_1/add/CMakeFiles/add_object.dir/add.cpp.o	604942290b38595e
+285	303	1737940222522179777	lesson4_1/common/libcommon.a	8e79810c3b733c65
+9	285	1737940222246004200	lesson4_1/common/CMakeFiles/common_object.dir/common.cpp.o	ed9bad7b3eb3716f
+1	45	1737942330461856541	build.ninja	42eeefc2bbbc6969

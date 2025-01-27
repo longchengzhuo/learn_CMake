@@ -1,0 +1,77 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lesson4_1/sub/libsub.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library"
+		],
+		"files" : 
+		[
+			"lesson4_1/sub/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "common_object::@23c9cee09645c9b66390"
+		},
+		{
+			"id" : "sub_object::@12dbea51c066bc1fe59a"
+		}
+	],
+	"id" : "sub::@12dbea51c066bc1fe59a",
+	"name" : "sub",
+	"nameOnDisk" : "libsub.a",
+	"paths" : 
+	{
+		"build" : "lesson4_1/sub",
+		"source" : "lesson4_1/sub"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/lesson4_1/sub/CMakeFiles/sub_object.dir/sub.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/lesson4_1/common/CMakeFiles/common_object.dir/common.cpp.o",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,0 +1,215 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "lesson4_1",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-lesson4_1-Debug-0f40a3c411e25729e278.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lesson4_1",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "lesson4_1/common",
+					"jsonFile" : "directory-lesson4_1.common-Debug-48b4fbdda10b02ebf1d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "lesson4_1/common",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "lesson4_1/sub",
+					"jsonFile" : "directory-lesson4_1.sub-Debug-664e2d6f9f5f55ed3b3d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "lesson4_1/sub",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"build" : "lesson4_1/add",
+					"jsonFile" : "directory-lesson4_1.add-Debug-ac54c468a927fc0056ce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "lesson4_1/add",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "lesson4_1/calculator",
+					"jsonFile" : "directory-lesson4_1.calculator-Debug-ff956c0cd72c540060de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "lesson4_1/calculator",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "learn_CMake",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "add::@fb176e7814eb7ecc4bb4",
+					"jsonFile" : "target-add-Debug-fe1aaf4c767096dcf2fb.json",
+					"name" : "add",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "add_object::@fb176e7814eb7ecc4bb4",
+					"jsonFile" : "target-add_object-Debug-c172b20b3b3a9d4f39b3.json",
+					"name" : "add_object",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "calculator::@5f8f08ce1f421d6f5258",
+					"jsonFile" : "target-calculator-Debug-f03037d60941381af5a9.json",
+					"name" : "calculator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "calculator_object::@5f8f08ce1f421d6f5258",
+					"jsonFile" : "target-calculator_object-Debug-96bcc7449b71ddd45511.json",
+					"name" : "calculator_object",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "common::@23c9cee09645c9b66390",
+					"jsonFile" : "target-common-Debug-5f342b2c600d1e305d81.json",
+					"name" : "common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "common_object::@23c9cee09645c9b66390",
+					"jsonFile" : "target-common_object-Debug-8c289127284694e16c79.json",
+					"name" : "common_object",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lesson4_1::@1b6d51dc19d592a70b9a",
+					"jsonFile" : "target-lesson4_1-Debug-ad53c07034f6facb922c.json",
+					"name" : "lesson4_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sub::@12dbea51c066bc1fe59a",
+					"jsonFile" : "target-sub-Debug-3778f7f727ef9f62ced2.json",
+					"name" : "sub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sub_object::@12dbea51c066bc1fe59a",
+					"jsonFile" : "target-sub_object-Debug-0494e87fba03b34576ec.json",
+					"name" : "sub_object",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/chengzhuolong/CLionProjects/learn_CMake/cmake-build-debug",
+		"source" : "/Users/chengzhuolong/CLionProjects/learn_CMake"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
